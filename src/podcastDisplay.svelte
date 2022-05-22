@@ -5,7 +5,7 @@
 
 <div class="content" />
 <div class="pc-title">
-    {#if !podcast.bonus}
+    {#if podcast.episode > 0}
         {`${podcast.episode}: ${podcast.title}`}
     {:else}
         {`${podcast.title}`}
@@ -18,7 +18,5 @@
     }
     .pc-title {
         color: #fff;
-    }
-    .audio {
     }
 </style>

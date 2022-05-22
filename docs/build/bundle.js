@@ -1199,7 +1199,7 @@ var app = (function () {
     	return block;
     }
 
-    // (7:4) {#if !podcast.bonus}
+    // (7:4) {#if podcast.episode > 0}
     function create_if_block$1(ctx) {
     	let t_value = `${/*podcast*/ ctx[0].episode}: ${/*podcast*/ ctx[0].title}` + "";
     	let t;
@@ -1223,7 +1223,7 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(7:4) {#if !podcast.bonus}",
+    		source: "(7:4) {#if podcast.episode > 0}",
     		ctx
     	});
 
@@ -1236,7 +1236,7 @@ var app = (function () {
     	let div1;
 
     	function select_block_type(ctx, dirty) {
-    		if (!/*podcast*/ ctx[0].bonus) return create_if_block$1;
+    		if (/*podcast*/ ctx[0].episode > 0) return create_if_block$1;
     		return create_else_block;
     	}
 
@@ -1249,9 +1249,9 @@ var app = (function () {
     			t = space();
     			div1 = element("div");
     			if_block.c();
-    			attr_dev(div0, "class", "content svelte-6aszdl");
+    			attr_dev(div0, "class", "content svelte-b1ghnx");
     			add_location(div0, file$1, 4, 0, 51);
-    			attr_dev(div1, "class", "pc-title svelte-6aszdl");
+    			attr_dev(div1, "class", "pc-title svelte-b1ghnx");
     			add_location(div1, file$1, 5, 0, 75);
     		},
     		l: function claim(nodes) {
@@ -1369,7 +1369,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (15:4) {#if !podcast.bonus}
+    // (15:4) {#if podcast.episode > 0}
     function create_if_block_1(ctx) {
     	let podcastdisplay;
     	let current;
@@ -1406,7 +1406,7 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(15:4) {#if !podcast.bonus}",
+    		source: "(15:4) {#if podcast.episode > 0}",
     		ctx
     	});
 
@@ -1417,7 +1417,7 @@ var app = (function () {
     function create_each_block_1(ctx) {
     	let if_block_anchor;
     	let current;
-    	let if_block = !/*podcast*/ ctx[0].bonus && create_if_block_1(ctx);
+    	let if_block = /*podcast*/ ctx[0].episode > 0 && create_if_block_1(ctx);
 
     	const block = {
     		c: function create() {
@@ -1430,7 +1430,7 @@ var app = (function () {
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			if (!/*podcast*/ ctx[0].bonus) if_block.p(ctx, dirty);
+    			if (/*podcast*/ ctx[0].episode > 0) if_block.p(ctx, dirty);
     		},
     		i: function intro(local) {
     			if (current) return;
@@ -1458,7 +1458,7 @@ var app = (function () {
     	return block;
     }
 
-    // (23:4) {#if podcast.bonus}
+    // (23:4) {#if podcast.episode === 0}
     function create_if_block(ctx) {
     	let podcastdisplay;
     	let current;
@@ -1495,7 +1495,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(23:4) {#if podcast.bonus}",
+    		source: "(23:4) {#if podcast.episode === 0}",
     		ctx
     	});
 
@@ -1506,7 +1506,7 @@ var app = (function () {
     function create_each_block(ctx) {
     	let if_block_anchor;
     	let current;
-    	let if_block = /*podcast*/ ctx[0].bonus && create_if_block(ctx);
+    	let if_block = /*podcast*/ ctx[0].episode === 0 && create_if_block(ctx);
 
     	const block = {
     		c: function create() {
@@ -1519,7 +1519,7 @@ var app = (function () {
     			current = true;
     		},
     		p: function update(ctx, dirty) {
-    			if (/*podcast*/ ctx[0].bonus) if_block.p(ctx, dirty);
+    			if (/*podcast*/ ctx[0].episode === 0) if_block.p(ctx, dirty);
     		},
     		i: function intro(local) {
     			if (current) return;
@@ -1617,9 +1617,9 @@ var app = (function () {
     			attr_dev(div2, "class", "imdb-films svelte-1nlsm4e");
     			add_location(div2, file, 11, 2, 316);
     			attr_dev(div3, "class", "podcast-category svelte-1nlsm4e");
-    			add_location(div3, file, 20, 3, 539);
+    			add_location(div3, file, 20, 3, 544);
     			attr_dev(div4, "class", "bonus-films svelte-1nlsm4e");
-    			add_location(div4, file, 19, 2, 510);
+    			add_location(div4, file, 19, 2, 515);
     			attr_dev(div5, "class", "podcasts svelte-1nlsm4e");
     			add_location(div5, file, 10, 1, 291);
     			attr_dev(div6, "class", "content svelte-1nlsm4e");

@@ -13,7 +13,7 @@
 		<div class="imdb-films">
 			<div class="podcast-category">Imdb listed</div>
 			{#each data as podcast}
-				{#if !podcast.bonus}
+				{#if podcast.episode > 0}
 					<PodcastDisplay {podcast} />
 				{/if}
 			{/each}
@@ -21,7 +21,7 @@
 		<div class="bonus-films">
 			<div class="podcast-category">Bonus films</div>
 			{#each data as podcast}
-				{#if podcast.bonus}
+				{#if podcast.episode === 0}
 					<PodcastDisplay {podcast} />
 				{/if}
 			{/each}
