@@ -30,7 +30,7 @@
 
 <style>
 	.main-title {
-		font-size: 20px;
+		font-size: 18px;
 		font-size: 4.2vw;
 	}
 	.details {
@@ -46,7 +46,7 @@
 		display: flex;
 		justify-content: space-around;
 		width: 100%;
-		padding-bottom: 600px;
+		padding-bottom: 800px;
 	}
 	.imdb-films {
 		display: flex;
