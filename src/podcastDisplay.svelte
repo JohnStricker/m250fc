@@ -4,16 +4,19 @@
 </script>
 
 <div class="content" />
-<div class="title">
-    {`${podcast.episode}: ${podcast.title}`}
+<div class="pc-title">
+    {#if !podcast.bonus}
+        {`${podcast.episode}: ${podcast.title}`}
+    {:else}
+        {`${podcast.title}`}
+    {/if}
 </div>
 
 <style>
     .content {
         display: flex;
-        background-color: black;
     }
-    .title {
+    .pc-title {
         color: #fff;
     }
     .audio {
