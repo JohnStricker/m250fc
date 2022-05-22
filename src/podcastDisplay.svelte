@@ -19,6 +19,6 @@
     .pc-title {
         color: #fff;
         padding-top: 4px;
-        font-size: 24px;
+        font-size: 4.2vw;
     }
 </style>
