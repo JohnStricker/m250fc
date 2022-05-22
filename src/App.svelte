@@ -6,8 +6,8 @@
 
 <div class="content">
 	<div class="main-title">
-		Here's the movies we watched while we were attempting to watch imdb's
-		top 50-100 movies.
+		Here's the movies we also watched while we were attempting to watch
+		imdb's top 50-100 movies.
 	</div>
 	<div class="podcasts">
 		<div class="bonus-films">
@@ -31,13 +31,16 @@
 
 <style>
 	.main-title {
-		font-size: 3rem;
+		font-size: 24px;
 	}
 	.details {
 		font-size: medium;
 	}
 	.podcast-category {
 		text-decoration: underline;
+		padding-top: 12px;
+		color: #4c8a55;
+		font-size: 34px;
 	}
 	.podcasts {
 		display: flex;

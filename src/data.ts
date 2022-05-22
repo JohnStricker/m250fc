@@ -535,7 +535,7 @@ let podcasts: Podcast[] = [
     }, {
         audio: "",
         date: new Date("2020/05/10"),
-        episode: 0,
+        episode: 81,
         image: "",
         imdb: "",
         title: "Double Indemnity"
@@ -556,7 +556,7 @@ let podcasts: Podcast[] = [
     }, {
         audio: "",
         date: new Date("2020/04/19"),
-        episode: 0,
+        episode: 84,
         image: "",
         imdb: "",
         title: "To Kill a Mockingbird"
@@ -577,7 +577,7 @@ let podcasts: Podcast[] = [
     }, {
         audio: "",
         date: new Date("2020/03/29"),
-        episode: 0,
+        episode: 87,
         image: "",
         imdb: "",
         title: "Full Metal Jacket"
