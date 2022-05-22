@@ -15,10 +15,11 @@
 <style>
     .content {
         display: flex;
+        font-size: 18px;
+        font-size: 3.2vw;
     }
     .pc-title {
         color: #fff;
         padding-top: 4px;
-        font-size: 3.2vw;
     }
 </style>
