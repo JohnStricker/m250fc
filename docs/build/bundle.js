@@ -1610,19 +1610,19 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "main-title svelte-s75l64");
+    			attr_dev(div0, "class", "main-title svelte-k0v8b0");
     			add_location(div0, file, 5, 1, 141);
-    			attr_dev(div1, "class", "podcast-category svelte-s75l64");
+    			attr_dev(div1, "class", "podcast-category svelte-k0v8b0");
     			add_location(div1, file, 11, 3, 327);
-    			attr_dev(div2, "class", "bonus-films svelte-s75l64");
+    			attr_dev(div2, "class", "bonus-films svelte-k0v8b0");
     			add_location(div2, file, 10, 2, 298);
-    			attr_dev(div3, "class", "podcast-category svelte-s75l64");
+    			attr_dev(div3, "class", "podcast-category svelte-k0v8b0");
     			add_location(div3, file, 19, 3, 528);
-    			attr_dev(div4, "class", "imdb-films svelte-s75l64");
+    			attr_dev(div4, "class", "imdb-films svelte-k0v8b0");
     			add_location(div4, file, 18, 2, 500);
-    			attr_dev(div5, "class", "podcasts svelte-s75l64");
+    			attr_dev(div5, "class", "podcasts svelte-k0v8b0");
     			add_location(div5, file, 9, 1, 273);
-    			attr_dev(div6, "class", "last-50-content svelte-s75l64");
+    			attr_dev(div6, "class", "last-50-content svelte-k0v8b0");
     			add_location(div6, file, 4, 0, 110);
     		},
     		l: function claim(nodes) {

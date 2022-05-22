@@ -58,6 +58,7 @@
 		display: flex;
 		flex-direction: column;
 		color: aliceblue;
+		height: 100%;
 		overflow-y: scroll;
 	}
 </style>
