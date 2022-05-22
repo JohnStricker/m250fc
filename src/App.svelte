@@ -30,7 +30,8 @@
 
 <style>
 	.main-title {
-		font-size: 32px;
+		font-size: 20px;
+		font-size: 4.2vw;
 	}
 	.details {
 		font-size: medium;
