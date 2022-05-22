@@ -46,7 +46,7 @@
 		display: flex;
 		justify-content: space-around;
 		width: 100%;
-		padding-bottom: 200px;
+		padding-bottom: 600px;
 	}
 	.imdb-films {
 		display: flex;
