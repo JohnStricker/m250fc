@@ -1,10 +1,9 @@
 <script lang="ts">
-	import podcasts from "./data";
 	import data from "./data";
 	import PodcastDisplay from "./podcastDisplay.svelte";
 </script>
 
-<div class="content">
+<div class="last-50-content">
 	<div class="main-title">
 		Here's the movies we also watched while we were attempting to watch
 		imdb's top 50-100 movies.
@@ -31,7 +30,7 @@
 
 <style>
 	.main-title {
-		font-size: 24px;
+		font-size: 32px;
 	}
 	.details {
 		font-size: medium;
@@ -55,9 +54,10 @@
 		display: flex;
 		flex-direction: column;
 	}
-	.content {
+	.last-50-content {
 		display: flex;
 		flex-direction: column;
 		color: aliceblue;
+		overflow-y: scroll;
 	}
 </style>

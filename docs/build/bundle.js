@@ -1369,7 +1369,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (15:4) {#if podcast.episode === 0}
+    // (14:4) {#if podcast.episode === 0}
     function create_if_block_1(ctx) {
     	let podcastdisplay;
     	let current;
@@ -1406,14 +1406,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(15:4) {#if podcast.episode === 0}",
+    		source: "(14:4) {#if podcast.episode === 0}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (14:3) {#each data as podcast}
+    // (13:3) {#each data as podcast}
     function create_each_block_1(ctx) {
     	let if_block_anchor;
     	let current;
@@ -1451,14 +1451,14 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(14:3) {#each data as podcast}",
+    		source: "(13:3) {#each data as podcast}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (23:4) {#if podcast.episode > 0}
+    // (22:4) {#if podcast.episode > 0}
     function create_if_block(ctx) {
     	let podcastdisplay;
     	let current;
@@ -1495,14 +1495,14 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(23:4) {#if podcast.episode > 0}",
+    		source: "(22:4) {#if podcast.episode > 0}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (22:3) {#each data as podcast}
+    // (21:3) {#each data as podcast}
     function create_each_block(ctx) {
     	let if_block_anchor;
     	let current;
@@ -1540,7 +1540,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(22:3) {#each data as podcast}",
+    		source: "(21:3) {#each data as podcast}",
     		ctx
     	});
 
@@ -1610,20 +1610,20 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "main-title svelte-1i32g00");
-    			add_location(div0, file, 6, 1, 164);
-    			attr_dev(div1, "class", "podcast-category svelte-1i32g00");
-    			add_location(div1, file, 12, 3, 350);
-    			attr_dev(div2, "class", "bonus-films svelte-1i32g00");
-    			add_location(div2, file, 11, 2, 321);
-    			attr_dev(div3, "class", "podcast-category svelte-1i32g00");
-    			add_location(div3, file, 20, 3, 551);
-    			attr_dev(div4, "class", "imdb-films svelte-1i32g00");
-    			add_location(div4, file, 19, 2, 523);
-    			attr_dev(div5, "class", "podcasts svelte-1i32g00");
-    			add_location(div5, file, 10, 1, 296);
-    			attr_dev(div6, "class", "content svelte-1i32g00");
-    			add_location(div6, file, 5, 0, 141);
+    			attr_dev(div0, "class", "main-title svelte-s75l64");
+    			add_location(div0, file, 5, 1, 141);
+    			attr_dev(div1, "class", "podcast-category svelte-s75l64");
+    			add_location(div1, file, 11, 3, 327);
+    			attr_dev(div2, "class", "bonus-films svelte-s75l64");
+    			add_location(div2, file, 10, 2, 298);
+    			attr_dev(div3, "class", "podcast-category svelte-s75l64");
+    			add_location(div3, file, 19, 3, 528);
+    			attr_dev(div4, "class", "imdb-films svelte-s75l64");
+    			add_location(div4, file, 18, 2, 500);
+    			attr_dev(div5, "class", "podcasts svelte-s75l64");
+    			add_location(div5, file, 9, 1, 273);
+    			attr_dev(div6, "class", "last-50-content svelte-s75l64");
+    			add_location(div6, file, 4, 0, 110);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1764,7 +1764,7 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== "$$") console.warn(`<App> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ podcasts, data: podcasts, PodcastDisplay });
+    	$$self.$capture_state = () => ({ data: podcasts, PodcastDisplay });
     	return [];
     }
 
