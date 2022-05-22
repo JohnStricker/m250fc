@@ -21,6 +21,5 @@
     .pc-title {
         color: #fff;
         padding-top: 4px;
-        padding-bottom: 500px;
     }
 </style>
