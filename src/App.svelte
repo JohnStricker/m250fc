@@ -45,6 +45,7 @@
 		display: flex;
 		justify-content: space-around;
 		width: 100%;
+		padding-bottom: 200px;
 	}
 	.imdb-films {
 		display: flex;
@@ -60,6 +61,5 @@
 		color: aliceblue;
 		height: 100%;
 		overflow-y: scroll;
-		margin-bottom: 500px;
 	}
 </style>
