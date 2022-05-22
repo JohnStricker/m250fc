@@ -11,8 +11,10 @@
 <style>
     .content {
         display: flex;
+        background-color: black;
     }
     .title {
+        color: #fff;
     }
     .audio {
     }
