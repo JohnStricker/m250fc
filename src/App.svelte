@@ -60,6 +60,6 @@
 		color: aliceblue;
 		height: 100%;
 		overflow-y: scroll;
-		padding-bottom: 500px;
+		margin-bottom: 500px;
 	}
 </style>
