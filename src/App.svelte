@@ -40,7 +40,8 @@
 		text-decoration: underline;
 		padding-top: 12px;
 		color: #4c8a55;
-		font-size: 34px;
+		font-size: 18px;
+		font-size: 4.2vw;
 	}
 	.podcasts {
 		display: flex;
