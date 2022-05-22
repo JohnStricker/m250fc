@@ -10,18 +10,18 @@
 		top 50-100 movies.
 	</div>
 	<div class="podcasts">
-		<div class="imdb-films">
-			<div class="podcast-category">Imdb listed</div>
-			{#each data as podcast}
-				{#if podcast.episode > 0}
-					<PodcastDisplay {podcast} />
-				{/if}
-			{/each}
-		</div>
 		<div class="bonus-films">
 			<div class="podcast-category">Bonus films</div>
 			{#each data as podcast}
 				{#if podcast.episode === 0}
+					<PodcastDisplay {podcast} />
+				{/if}
+			{/each}
+		</div>
+		<div class="imdb-films">
+			<div class="podcast-category">Imdb listed</div>
+			{#each data as podcast}
+				{#if podcast.episode > 0}
 					<PodcastDisplay {podcast} />
 				{/if}
 			{/each}

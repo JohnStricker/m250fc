@@ -19,7 +19,7 @@ let podcasts: Podcast[] = [
     }, {
         audio: "",
         date: new Date("2022/04/24"),
-        episode: 1,
+        episode: 0,
         image: "",
         imdb: "",
         title: "Licorice Pizza"
@@ -40,7 +40,7 @@ let podcasts: Podcast[] = [
     }, {
         audio: "",
         date: new Date("2022/03/21"),
-        episode: 45,
+        episode: 54,
         image: "",
         imdb: "",
         title: "The Great Dictator"
