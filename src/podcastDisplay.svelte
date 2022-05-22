@@ -15,7 +15,7 @@
 <style>
     .content {
         display: flex;
-        font-size: 18px;
+        font-size: 16px;
         font-size: 3.2vw;
     }
     .pc-title {
